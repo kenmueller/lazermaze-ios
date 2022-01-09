@@ -25,7 +25,7 @@ struct Persistence {
 	}
 	
 	init(inMemory: Bool = false) {
-		container = NSPersistentContainer(name: "Lazer_Maze")
+		container = NSPersistentContainer(name: "Model")
 		
 		if inMemory, let store = container.persistentStoreDescriptions.first {
 			store.url = URL(fileURLWithPath: "/dev/null")
@@ -35,7 +35,7 @@ struct Persistence {
 		
 		container.loadPersistentStores { _, error in
 			guard let error = error else { return }
-			print(error)
+			print("Attempted to load stores \(error)")
 		}
 	}
 }

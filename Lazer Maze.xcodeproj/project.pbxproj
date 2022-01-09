@@ -11,7 +11,7 @@
 		4D13912A278B803B000ABE21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D139129278B803B000ABE21 /* Assets.xcassets */; };
 		4D13912D278B803B000ABE21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D13912C278B803B000ABE21 /* Preview Assets.xcassets */; };
 		4D13912F278B803B000ABE21 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13912E278B803B000ABE21 /* Persistence.swift */; };
-		4D139132278B803B000ABE21 /* Lazer_Maze.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D139130278B803B000ABE21 /* Lazer_Maze.xcdatamodeld */; };
+		4D139132278B803B000ABE21 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D139130278B803B000ABE21 /* Model.xcdatamodeld */; };
 		4D13913C278B803B000ABE21 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13913B278B803B000ABE21 /* Tests.swift */; };
 		4D139146278B803B000ABE21 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139145278B803B000ABE21 /* UITests.swift */; };
 		4D139148278B803B000ABE21 /* LaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139147278B803B000ABE21 /* LaunchTests.swift */; };
@@ -106,19 +106,11 @@
 				4D139125278B803A000ABE21 /* App.swift */,
 				4D13912E278B803B000ABE21 /* Persistence.swift */,
 				4D139154278B81A4000ABE21 /* Views */,
-				4D139130278B803B000ABE21 /* Lazer_Maze.xcdatamodeld */,
+				4D139130278B803B000ABE21 /* Model.xcdatamodeld */,
 				4D139129278B803B000ABE21 /* Assets.xcassets */,
-				4D13912B278B803B000ABE21 /* Preview Content */,
+				4D13915A278B87E0000ABE21 /* Preview */,
 			);
 			path = "Lazer Maze";
-			sourceTree = "<group>";
-		};
-		4D13912B278B803B000ABE21 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				4D13912C278B803B000ABE21 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		4D13913A278B803B000ABE21 /* Tests */ = {
@@ -144,6 +136,14 @@
 				4D139155278B81B4000ABE21 /* HomeView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4D13915A278B87E0000ABE21 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				4D13912C278B803B000ABE21 /* Preview Assets.xcassets */,
+			);
+			path = Preview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D13912F278B803B000ABE21 /* Persistence.swift in Sources */,
-				4D139132278B803B000ABE21 /* Lazer_Maze.xcdatamodeld in Sources */,
+				4D139132278B803B000ABE21 /* Model.xcdatamodeld in Sources */,
 				4D139156278B81B4000ABE21 /* HomeView.swift in Sources */,
 				4D139126278B803A000ABE21 /* App.swift in Sources */,
 			);
@@ -440,7 +440,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lazer Maze/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Lazer Maze/Preview\"";
 				DEVELOPMENT_TEAM = JUP7FZ7QC3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -469,7 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lazer Maze/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Lazer Maze/Preview\"";
 				DEVELOPMENT_TEAM = JUP7FZ7QC3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -609,13 +609,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4D139130278B803B000ABE21 /* Lazer_Maze.xcdatamodeld */ = {
+		4D139130278B803B000ABE21 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				4D139131278B803B000ABE21 /* Lazer_Maze.xcdatamodel */,
 			);
 			currentVersion = 4D139131278B803B000ABE21 /* Lazer_Maze.xcdatamodel */;
-			path = Lazer_Maze.xcdatamodeld;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
