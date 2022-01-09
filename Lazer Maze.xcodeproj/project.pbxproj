@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D139126278B803A000ABE21 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139125278B803A000ABE21 /* App.swift */; };
+		4D13912A278B803B000ABE21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D139129278B803B000ABE21 /* Assets.xcassets */; };
+		4D13912D278B803B000ABE21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D13912C278B803B000ABE21 /* Preview Assets.xcassets */; };
+		4D13912F278B803B000ABE21 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13912E278B803B000ABE21 /* Persistence.swift */; };
+		4D139132278B803B000ABE21 /* Lazer_Maze.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D139130278B803B000ABE21 /* Lazer_Maze.xcdatamodeld */; };
+		4D13913C278B803B000ABE21 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13913B278B803B000ABE21 /* Tests.swift */; };
+		4D139146278B803B000ABE21 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139145278B803B000ABE21 /* UITests.swift */; };
+		4D139148278B803B000ABE21 /* LaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139147278B803B000ABE21 /* LaunchTests.swift */; };
+		4D139156278B81B4000ABE21 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139155278B81B4000ABE21 /* HomeView.swift */; };
+		4D139158278B855F000ABE21 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4D139157278B855F000ABE21 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D139138278B803B000ABE21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D13911A278B8039000ABE21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D139121278B8039000ABE21;
+			remoteInfo = "Lazer Maze";
+		};
+		4D139142278B803B000ABE21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D13911A278B8039000ABE21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D139121278B8039000ABE21;
+			remoteInfo = "Lazer Maze";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D139122278B803A000ABE21 /* Lazer Maze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lazer Maze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D139125278B803A000ABE21 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		4D139129278B803B000ABE21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D13912C278B803B000ABE21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D13912E278B803B000ABE21 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4D139131278B803B000ABE21 /* Lazer_Maze.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lazer_Maze.xcdatamodel; sourceTree = "<group>"; };
+		4D139137278B803B000ABE21 /* Lazer MazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lazer MazeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D13913B278B803B000ABE21 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		4D139141278B803B000ABE21 /* Lazer MazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lazer MazeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D139145278B803B000ABE21 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
+		4D139147278B803B000ABE21 /* LaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchTests.swift; sourceTree = "<group>"; };
+		4D139155278B81B4000ABE21 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4D139157278B855F000ABE21 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4D139159278B8707000ABE21 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D13911F278B8039000ABE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D139134278B803B000ABE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D13913E278B803B000ABE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D139119278B8039000ABE21 = {
+			isa = PBXGroup;
+			children = (
+				4D139157278B855F000ABE21 /* .gitignore */,
+				4D139159278B8707000ABE21 /* README.md */,
+				4D139124278B803A000ABE21 /* Lazer Maze */,
+				4D13913A278B803B000ABE21 /* Tests */,
+				4D139144278B803B000ABE21 /* UITests */,
+				4D139123278B803A000ABE21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D139123278B803A000ABE21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D139122278B803A000ABE21 /* Lazer Maze.app */,
+				4D139137278B803B000ABE21 /* Lazer MazeTests.xctest */,
+				4D139141278B803B000ABE21 /* Lazer MazeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D139124278B803A000ABE21 /* Lazer Maze */ = {
+			isa = PBXGroup;
+			children = (
+				4D139125278B803A000ABE21 /* App.swift */,
+				4D13912E278B803B000ABE21 /* Persistence.swift */,
+				4D139154278B81A4000ABE21 /* Views */,
+				4D139130278B803B000ABE21 /* Lazer_Maze.xcdatamodeld */,
+				4D139129278B803B000ABE21 /* Assets.xcassets */,
+				4D13912B278B803B000ABE21 /* Preview Content */,
+			);
+			path = "Lazer Maze";
+			sourceTree = "<group>";
+		};
+		4D13912B278B803B000ABE21 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D13912C278B803B000ABE21 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D13913A278B803B000ABE21 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D13913B278B803B000ABE21 /* Tests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		4D139144278B803B000ABE21 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D139145278B803B000ABE21 /* UITests.swift */,
+				4D139147278B803B000ABE21 /* LaunchTests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		4D139154278B81A4000ABE21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D139155278B81B4000ABE21 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D139121278B8039000ABE21 /* Lazer Maze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D13914B278B803B000ABE21 /* Build configuration list for PBXNativeTarget "Lazer Maze" */;
+			buildPhases = (
+				4D13911E278B8039000ABE21 /* Sources */,
+				4D13911F278B8039000ABE21 /* Frameworks */,
+				4D139120278B8039000ABE21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lazer Maze";
+			productName = "Lazer Maze";
+			productReference = 4D139122278B803A000ABE21 /* Lazer Maze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D139136278B803B000ABE21 /* Lazer MazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D13914E278B803B000ABE21 /* Build configuration list for PBXNativeTarget "Lazer MazeTests" */;
+			buildPhases = (
+				4D139133278B803B000ABE21 /* Sources */,
+				4D139134278B803B000ABE21 /* Frameworks */,
+				4D139135278B803B000ABE21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D139139278B803B000ABE21 /* PBXTargetDependency */,
+			);
+			name = "Lazer MazeTests";
+			productName = "Lazer MazeTests";
+			productReference = 4D139137278B803B000ABE21 /* Lazer MazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D139140278B803B000ABE21 /* Lazer MazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D139151278B803B000ABE21 /* Build configuration list for PBXNativeTarget "Lazer MazeUITests" */;
+			buildPhases = (
+				4D13913D278B803B000ABE21 /* Sources */,
+				4D13913E278B803B000ABE21 /* Frameworks */,
+				4D13913F278B803B000ABE21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D139143278B803B000ABE21 /* PBXTargetDependency */,
+			);
+			name = "Lazer MazeUITests";
+			productName = "Lazer MazeUITests";
+			productReference = 4D139141278B803B000ABE21 /* Lazer MazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D13911A278B8039000ABE21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4D139121278B8039000ABE21 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4D139136278B803B000ABE21 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4D139121278B8039000ABE21;
+					};
+					4D139140278B803B000ABE21 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4D139121278B8039000ABE21;
+					};
+				};
+			};
+			buildConfigurationList = 4D13911D278B8039000ABE21 /* Build configuration list for PBXProject "Lazer Maze" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D139119278B8039000ABE21;
+			productRefGroup = 4D139123278B803A000ABE21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D139121278B8039000ABE21 /* Lazer Maze */,
+				4D139136278B803B000ABE21 /* Lazer MazeTests */,
+				4D139140278B803B000ABE21 /* Lazer MazeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D139120278B8039000ABE21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D13912D278B803B000ABE21 /* Preview Assets.xcassets in Resources */,
+				4D139158278B855F000ABE21 /* .gitignore in Resources */,
+				4D13912A278B803B000ABE21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D139135278B803B000ABE21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D13913F278B803B000ABE21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D13911E278B8039000ABE21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D13912F278B803B000ABE21 /* Persistence.swift in Sources */,
+				4D139132278B803B000ABE21 /* Lazer_Maze.xcdatamodeld in Sources */,
+				4D139156278B81B4000ABE21 /* HomeView.swift in Sources */,
+				4D139126278B803A000ABE21 /* App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D139133278B803B000ABE21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D13913C278B803B000ABE21 /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D13913D278B803B000ABE21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D139148278B803B000ABE21 /* LaunchTests.swift in Sources */,
+				4D139146278B803B000ABE21 /* UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D139139278B803B000ABE21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D139121278B8039000ABE21 /* Lazer Maze */;
+			targetProxy = 4D139138278B803B000ABE21 /* PBXContainerItemProxy */;
+		};
+		4D139143278B803B000ABE21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D139121278B8039000ABE21 /* Lazer Maze */;
+			targetProxy = 4D139142278B803B000ABE21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D139149278B803B000ABE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D13914A278B803B000ABE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D13914C278B803B000ABE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lazer Maze/Preview Content\"";
+				DEVELOPMENT_TEAM = JUP7FZ7QC3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.lazermaze.Lazer-Maze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D13914D278B803B000ABE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lazer Maze/Preview Content\"";
+				DEVELOPMENT_TEAM = JUP7FZ7QC3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.lazermaze.Lazer-Maze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D13914F278B803B000ABE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUP7FZ7QC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.lazermaze.Lazer-MazeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lazer Maze.app/Lazer Maze";
+			};
+			name = Debug;
+		};
+		4D139150278B803B000ABE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUP7FZ7QC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.lazermaze.Lazer-MazeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lazer Maze.app/Lazer Maze";
+			};
+			name = Release;
+		};
+		4D139152278B803B000ABE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUP7FZ7QC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.lazermaze.Lazer-MazeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lazer Maze";
+			};
+			name = Debug;
+		};
+		4D139153278B803B000ABE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUP7FZ7QC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.lazermaze.Lazer-MazeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lazer Maze";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D13911D278B8039000ABE21 /* Build configuration list for PBXProject "Lazer Maze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D139149278B803B000ABE21 /* Debug */,
+				4D13914A278B803B000ABE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D13914B278B803B000ABE21 /* Build configuration list for PBXNativeTarget "Lazer Maze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D13914C278B803B000ABE21 /* Debug */,
+				4D13914D278B803B000ABE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D13914E278B803B000ABE21 /* Build configuration list for PBXNativeTarget "Lazer MazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D13914F278B803B000ABE21 /* Debug */,
+				4D139150278B803B000ABE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D139151278B803B000ABE21 /* Build configuration list for PBXNativeTarget "Lazer MazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D139152278B803B000ABE21 /* Debug */,
+				4D139153278B803B000ABE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4D139130278B803B000ABE21 /* Lazer_Maze.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4D139131278B803B000ABE21 /* Lazer_Maze.xcdatamodel */,
+			);
+			currentVersion = 4D139131278B803B000ABE21 /* Lazer_Maze.xcdatamodel */;
+			path = Lazer_Maze.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4D13911A278B8039000ABE21 /* Project object */;
+}
