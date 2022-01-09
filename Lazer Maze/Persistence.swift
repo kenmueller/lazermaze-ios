@@ -25,10 +25,10 @@ struct Persistence {
 	}
 	
 	init(inMemory: Bool = false) {
-		container = NSPersistentContainer(name: "Model")
+		container = .init(name: "Model")
 		
 		if inMemory, let store = container.persistentStoreDescriptions.first {
-			store.url = URL(fileURLWithPath: "/dev/null")
+			store.url = .init(fileURLWithPath: "/dev/null")
 		}
 		
 		container.viewContext.automaticallyMergesChangesFromParent = true
