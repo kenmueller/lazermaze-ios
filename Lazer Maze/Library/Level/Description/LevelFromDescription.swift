@@ -1,5 +1,5 @@
 extension Level {
-	convenience init(withDescription description: String) throws {
+	convenience init(fromDescription description: String) throws {
 		var cells = description
 			.split(separator: "\n")
 			.map { $0.split(separator: " ").map(String.init) }
