@@ -9,11 +9,11 @@ struct HomeView: View {
 				ForEach(Array(row.enumerated()), id: \.offset) { _, cell in
 					switch cell.category {
 					case let .piece(piece):
-						Text(piece.icon)
+						Text("\(cell.hasStar ? "star " : "")\(piece.icon)")
 					case .block:
 						Text("block")
 					case .empty:
-						Text("empty")
+						Text(cell.hasStar ? "star" : "empty")
 					}
 				}
 			}

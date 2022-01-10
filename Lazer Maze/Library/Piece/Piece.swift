@@ -10,6 +10,8 @@ final class Piece {
 	var icon: String {
 		switch direction {
 		case let .horizontal(horizontal):
+			if double { return #"||"# }
+			
 			switch horizontal {
 			case .left:
 				return #"<|"#
@@ -17,6 +19,8 @@ final class Piece {
 				return #"|>"#
 			}
 		case let .vertical(vertical):
+			if double { return #"--"# }
+			
 			switch vertical {
 			case .up:
 				return #"-^"#
@@ -24,11 +28,21 @@ final class Piece {
 				return #"-v"#
 			}
 		case let .diagonal(vertical, horizontal):
-			switch (vertical, horizontal) {
-			case (.up, .right), (.down, .left):
-				return #"\\"#
-			case (.up, .left), (.down, .right):
-				return #"\\"#
+			switch vertical {
+			case .up:
+				switch horizontal {
+				case .left:
+					return double ? #"//"# : #"</"#
+				case .right:
+					return double ? #"\\"# : #"\>"#
+				}
+			case .down:
+				switch horizontal {
+				case .left:
+					return double ? #"\\"# : #"<\"#
+				case .right:
+					return double ? #"//"# : #"/>"#
+				}
 			}
 		}
 	}
