@@ -17,6 +17,18 @@
 		4D139148278B803B000ABE21 /* LaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139147278B803B000ABE21 /* LaunchTests.swift */; };
 		4D139156278B81B4000ABE21 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139155278B81B4000ABE21 /* HomeView.swift */; };
 		4D139158278B855F000ABE21 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4D139157278B855F000ABE21 /* .gitignore */; };
+		4D13915E278B8CAC000ABE21 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13915D278B8CAC000ABE21 /* Level.swift */; };
+		4D139160278B8D1C000ABE21 /* LevelDescriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13915F278B8D1B000ABE21 /* LevelDescriptions.swift */; };
+		4D139163278B98AD000ABE21 /* LevelFromDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139162278B98AD000ABE21 /* LevelFromDescription.swift */; };
+		4D139166278B98E8000ABE21 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139165278B98E8000ABE21 /* Piece.swift */; };
+		4D139169278B99A2000ABE21 /* PieceDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139168278B99A2000ABE21 /* PieceDirection.swift */; };
+		4D139170278BA468000ABE21 /* LevelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13916F278BA468000ABE21 /* LevelCell.swift */; };
+		4D139173278BA515000ABE21 /* LazerPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139172278BA515000ABE21 /* LazerPosition.swift */; };
+		4D139175278BA520000ABE21 /* Lazer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139174278BA520000ABE21 /* Lazer.swift */; };
+		4D139178278BA675000ABE21 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139177278BA675000ABE21 /* Direction.swift */; };
+		4D13917A278BA8FC000ABE21 /* HorizontalDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139179278BA8FC000ABE21 /* HorizontalDirection.swift */; };
+		4D13917C278BA903000ABE21 /* VerticalDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13917B278BA902000ABE21 /* VerticalDirection.swift */; };
+		4D13917E278BABBA000ABE21 /* LevelCellCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13917D278BABBA000ABE21 /* LevelCellCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,18 @@
 		4D139155278B81B4000ABE21 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4D139157278B855F000ABE21 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		4D139159278B8707000ABE21 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4D13915D278B8CAC000ABE21 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		4D13915F278B8D1B000ABE21 /* LevelDescriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelDescriptions.swift; sourceTree = "<group>"; };
+		4D139162278B98AD000ABE21 /* LevelFromDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelFromDescription.swift; sourceTree = "<group>"; };
+		4D139165278B98E8000ABE21 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		4D139168278B99A2000ABE21 /* PieceDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceDirection.swift; sourceTree = "<group>"; };
+		4D13916F278BA468000ABE21 /* LevelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCell.swift; sourceTree = "<group>"; };
+		4D139172278BA515000ABE21 /* LazerPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazerPosition.swift; sourceTree = "<group>"; };
+		4D139174278BA520000ABE21 /* Lazer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lazer.swift; sourceTree = "<group>"; };
+		4D139177278BA675000ABE21 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		4D139179278BA8FC000ABE21 /* HorizontalDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalDirection.swift; sourceTree = "<group>"; };
+		4D13917B278BA902000ABE21 /* VerticalDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalDirection.swift; sourceTree = "<group>"; };
+		4D13917D278BABBA000ABE21 /* LevelCellCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCellCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +130,7 @@
 				4D139125278B803A000ABE21 /* App.swift */,
 				4D13912E278B803B000ABE21 /* Persistence.swift */,
 				4D139154278B81A4000ABE21 /* Views */,
+				4D13915B278B8C74000ABE21 /* Library */,
 				4D139130278B803B000ABE21 /* Model.xcdatamodeld */,
 				4D139129278B803B000ABE21 /* Assets.xcassets */,
 				4D13915A278B87E0000ABE21 /* Preview */,
@@ -144,6 +169,73 @@
 				4D13912C278B803B000ABE21 /* Preview Assets.xcassets */,
 			);
 			path = Preview;
+			sourceTree = "<group>";
+		};
+		4D13915B278B8C74000ABE21 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				4D13915C278B8C7B000ABE21 /* Level */,
+				4D139164278B98E1000ABE21 /* Piece */,
+				4D139171278BA509000ABE21 /* Lazer */,
+				4D139176278BA652000ABE21 /* Direction */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		4D13915C278B8C7B000ABE21 /* Level */ = {
+			isa = PBXGroup;
+			children = (
+				4D13915D278B8CAC000ABE21 /* Level.swift */,
+				4D13916E278BA460000ABE21 /* Cell */,
+				4D139161278B9897000ABE21 /* Description */,
+			);
+			path = Level;
+			sourceTree = "<group>";
+		};
+		4D139161278B9897000ABE21 /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				4D139162278B98AD000ABE21 /* LevelFromDescription.swift */,
+				4D13915F278B8D1B000ABE21 /* LevelDescriptions.swift */,
+			);
+			path = Description;
+			sourceTree = "<group>";
+		};
+		4D139164278B98E1000ABE21 /* Piece */ = {
+			isa = PBXGroup;
+			children = (
+				4D139165278B98E8000ABE21 /* Piece.swift */,
+				4D139168278B99A2000ABE21 /* PieceDirection.swift */,
+			);
+			path = Piece;
+			sourceTree = "<group>";
+		};
+		4D13916E278BA460000ABE21 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4D13916F278BA468000ABE21 /* LevelCell.swift */,
+				4D13917D278BABBA000ABE21 /* LevelCellCategory.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4D139171278BA509000ABE21 /* Lazer */ = {
+			isa = PBXGroup;
+			children = (
+				4D139174278BA520000ABE21 /* Lazer.swift */,
+				4D139172278BA515000ABE21 /* LazerPosition.swift */,
+			);
+			path = Lazer;
+			sourceTree = "<group>";
+		};
+		4D139176278BA652000ABE21 /* Direction */ = {
+			isa = PBXGroup;
+			children = (
+				4D139177278BA675000ABE21 /* Direction.swift */,
+				4D139179278BA8FC000ABE21 /* HorizontalDirection.swift */,
+				4D13917B278BA902000ABE21 /* VerticalDirection.swift */,
+			);
+			path = Direction;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,10 +369,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D139175278BA520000ABE21 /* Lazer.swift in Sources */,
 				4D13912F278B803B000ABE21 /* Persistence.swift in Sources */,
 				4D139132278B803B000ABE21 /* Model.xcdatamodeld in Sources */,
+				4D139163278B98AD000ABE21 /* LevelFromDescription.swift in Sources */,
 				4D139156278B81B4000ABE21 /* HomeView.swift in Sources */,
+				4D139166278B98E8000ABE21 /* Piece.swift in Sources */,
+				4D139160278B8D1C000ABE21 /* LevelDescriptions.swift in Sources */,
+				4D13917C278BA903000ABE21 /* VerticalDirection.swift in Sources */,
+				4D13917E278BABBA000ABE21 /* LevelCellCategory.swift in Sources */,
+				4D13915E278B8CAC000ABE21 /* Level.swift in Sources */,
+				4D139173278BA515000ABE21 /* LazerPosition.swift in Sources */,
 				4D139126278B803A000ABE21 /* App.swift in Sources */,
+				4D139170278BA468000ABE21 /* LevelCell.swift in Sources */,
+				4D13917A278BA8FC000ABE21 /* HorizontalDirection.swift in Sources */,
+				4D139169278B99A2000ABE21 /* PieceDirection.swift in Sources */,
+				4D139178278BA675000ABE21 /* Direction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
