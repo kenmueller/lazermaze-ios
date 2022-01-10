@@ -1,7 +1,7 @@
 final class Piece {
 	let direction: Direction
 	
-	init(direction: Direction) {
+	init(to direction: Direction) {
 		self.direction = direction
 	}
 }

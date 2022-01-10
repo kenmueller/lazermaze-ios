@@ -23,12 +23,15 @@
 		4D139166278B98E8000ABE21 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139165278B98E8000ABE21 /* Piece.swift */; };
 		4D139169278B99A2000ABE21 /* PieceDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139168278B99A2000ABE21 /* PieceDirection.swift */; };
 		4D139170278BA468000ABE21 /* LevelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13916F278BA468000ABE21 /* LevelCell.swift */; };
-		4D139173278BA515000ABE21 /* LazerPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139172278BA515000ABE21 /* LazerPosition.swift */; };
 		4D139175278BA520000ABE21 /* Lazer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139174278BA520000ABE21 /* Lazer.swift */; };
 		4D139178278BA675000ABE21 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139177278BA675000ABE21 /* Direction.swift */; };
 		4D13917A278BA8FC000ABE21 /* HorizontalDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139179278BA8FC000ABE21 /* HorizontalDirection.swift */; };
 		4D13917C278BA903000ABE21 /* VerticalDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13917B278BA902000ABE21 /* VerticalDirection.swift */; };
 		4D13917E278BABBA000ABE21 /* LevelCellCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13917D278BABBA000ABE21 /* LevelCellCategory.swift */; };
+		4D139180278BB0F0000ABE21 /* LevelBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13917F278BB0F0000ABE21 /* LevelBorder.swift */; };
+		4D139184278BB214000ABE21 /* LevelExit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139183278BB214000ABE21 /* LevelExit.swift */; };
+		4D139186278BB682000ABE21 /* LevelDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139185278BB682000ABE21 /* LevelDescription.swift */; };
+		4D139188278BB694000ABE21 /* LevelDescriptionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139187278BB694000ABE21 /* LevelDescriptionError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,12 +72,15 @@
 		4D139165278B98E8000ABE21 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
 		4D139168278B99A2000ABE21 /* PieceDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceDirection.swift; sourceTree = "<group>"; };
 		4D13916F278BA468000ABE21 /* LevelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCell.swift; sourceTree = "<group>"; };
-		4D139172278BA515000ABE21 /* LazerPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazerPosition.swift; sourceTree = "<group>"; };
 		4D139174278BA520000ABE21 /* Lazer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lazer.swift; sourceTree = "<group>"; };
 		4D139177278BA675000ABE21 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		4D139179278BA8FC000ABE21 /* HorizontalDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalDirection.swift; sourceTree = "<group>"; };
 		4D13917B278BA902000ABE21 /* VerticalDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalDirection.swift; sourceTree = "<group>"; };
 		4D13917D278BABBA000ABE21 /* LevelCellCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCellCategory.swift; sourceTree = "<group>"; };
+		4D13917F278BB0F0000ABE21 /* LevelBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelBorder.swift; sourceTree = "<group>"; };
+		4D139183278BB214000ABE21 /* LevelExit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelExit.swift; sourceTree = "<group>"; };
+		4D139185278BB682000ABE21 /* LevelDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelDescription.swift; sourceTree = "<group>"; };
+		4D139187278BB694000ABE21 /* LevelDescriptionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelDescriptionError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				4D13915D278B8CAC000ABE21 /* Level.swift */,
+				4D139182278BB206000ABE21 /* Border */,
+				4D139181278BB1ED000ABE21 /* Exit */,
 				4D13916E278BA460000ABE21 /* Cell */,
 				4D139161278B9897000ABE21 /* Description */,
 			);
@@ -195,6 +203,8 @@
 		4D139161278B9897000ABE21 /* Description */ = {
 			isa = PBXGroup;
 			children = (
+				4D139185278BB682000ABE21 /* LevelDescription.swift */,
+				4D139187278BB694000ABE21 /* LevelDescriptionError.swift */,
 				4D139162278B98AD000ABE21 /* LevelFromDescription.swift */,
 				4D13915F278B8D1B000ABE21 /* LevelDescriptions.swift */,
 			);
@@ -223,7 +233,6 @@
 			isa = PBXGroup;
 			children = (
 				4D139174278BA520000ABE21 /* Lazer.swift */,
-				4D139172278BA515000ABE21 /* LazerPosition.swift */,
 			);
 			path = Lazer;
 			sourceTree = "<group>";
@@ -236,6 +245,22 @@
 				4D13917B278BA902000ABE21 /* VerticalDirection.swift */,
 			);
 			path = Direction;
+			sourceTree = "<group>";
+		};
+		4D139181278BB1ED000ABE21 /* Exit */ = {
+			isa = PBXGroup;
+			children = (
+				4D139183278BB214000ABE21 /* LevelExit.swift */,
+			);
+			path = Exit;
+			sourceTree = "<group>";
+		};
+		4D139182278BB206000ABE21 /* Border */ = {
+			isa = PBXGroup;
+			children = (
+				4D13917F278BB0F0000ABE21 /* LevelBorder.swift */,
+			);
+			path = Border;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,17 +399,20 @@
 				4D139132278B803B000ABE21 /* Model.xcdatamodeld in Sources */,
 				4D139163278B98AD000ABE21 /* LevelFromDescription.swift in Sources */,
 				4D139156278B81B4000ABE21 /* HomeView.swift in Sources */,
+				4D139184278BB214000ABE21 /* LevelExit.swift in Sources */,
 				4D139166278B98E8000ABE21 /* Piece.swift in Sources */,
 				4D139160278B8D1C000ABE21 /* LevelDescriptions.swift in Sources */,
 				4D13917C278BA903000ABE21 /* VerticalDirection.swift in Sources */,
+				4D139188278BB694000ABE21 /* LevelDescriptionError.swift in Sources */,
 				4D13917E278BABBA000ABE21 /* LevelCellCategory.swift in Sources */,
 				4D13915E278B8CAC000ABE21 /* Level.swift in Sources */,
-				4D139173278BA515000ABE21 /* LazerPosition.swift in Sources */,
 				4D139126278B803A000ABE21 /* App.swift in Sources */,
+				4D139180278BB0F0000ABE21 /* LevelBorder.swift in Sources */,
 				4D139170278BA468000ABE21 /* LevelCell.swift in Sources */,
 				4D13917A278BA8FC000ABE21 /* HorizontalDirection.swift in Sources */,
 				4D139169278B99A2000ABE21 /* PieceDirection.swift in Sources */,
 				4D139178278BA675000ABE21 /* Direction.swift in Sources */,
+				4D139186278BB682000ABE21 /* LevelDescription.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

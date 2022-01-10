@@ -37,7 +37,7 @@
  
  ~~ empty (must put around lazer, different from empty piece)
  
- If you point to the bounds of the map, it will represent the end of the maze
+ If you point to the bounds of the map, it will represent the exit
  
  */
 

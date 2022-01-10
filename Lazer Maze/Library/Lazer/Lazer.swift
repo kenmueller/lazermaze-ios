@@ -1,8 +1,10 @@
 final class Lazer {
-	let position: Position
+	static let items = ["^^", "vv", "<<", ">>", "//", "\\"]
+	
+	let position: Level.Border
 	let direction: Direction
 	
-	init(position: Position, direction: Direction) {
+	init(at position: Level.Border, to direction: Direction) {
 		self.position = position
 		self.direction = direction
 	}
