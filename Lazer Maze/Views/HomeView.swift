@@ -2,26 +2,6 @@ import SwiftUI
 
 fileprivate let level = try! Level(fromDescription: Level.descriptions[0])
 
-struct Frame: View {
-	struct PreferenceKey: SwiftUI.PreferenceKey {
-		typealias Value = CGRect?
-		
-		static let defaultValue: Value = nil
-		
-		static func reduce(value: inout Value, nextValue: () -> Value) {
-			value = nextValue()
-		}
-	}
-	
-	var body: some View {
-		GeometryReader { geometry in
-			Rectangle()
-				.hidden()
-				.preference(key: PreferenceKey.self, value: geometry.frame(in: .global))
-		}
-	}
-}
-
 struct Cell: View {
 	let level: Level
 	let cell: Level.Cell
