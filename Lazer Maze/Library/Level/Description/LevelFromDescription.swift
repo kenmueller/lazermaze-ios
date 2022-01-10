@@ -77,8 +77,9 @@ extension Level {
 				throw Description.Error.invalid(withReason: "Invalid lazer or exit")
 			}
 			
-			for var row in cells {
+			for (index, var row) in cells.enumerated() {
 				row.remove(at: 0)
+				cells[index] = row
 			}
 		}
 		
@@ -102,8 +103,9 @@ extension Level {
 				throw Description.Error.invalid(withReason: "Invalid lazer or exit")
 			}
 			
-			for var row in cells {
+			for (index, var row) in cells.enumerated() {
 				row.remove(at: row.count - 1)
+				cells[index] = row
 			}
 		}
 		
@@ -134,35 +136,35 @@ extension Level {
 		let hasStar = string.starts(with: "xx")
 		let item = hasStar ? .init(string.dropFirst(2)) : string
 		
-		func piece(_ direction: Piece.Direction) -> Cell {
-			.init(as: .piece(.init(to: direction)), hasStar: hasStar)
+		func piece(to direction: Direction, double: Bool = false) -> Cell {
+			.init(as: .piece(.init(to: direction, double: double)), hasStar: hasStar)
 		}
 		
 		switch item {
 		case #"-^"#:
-			return piece(.single(.vertical(.up)))
+			return piece(to: .vertical(.up))
 		case #"-v"#:
-			return piece(.single(.vertical(.down)))
+			return piece(to: .vertical(.down))
 		case #"--"#:
-			return piece(.double(.vertical(.up), .vertical(.down)))
+			return piece(to: .vertical(.up), double: true)
 		case #"<|"#:
-			return piece(.single(.horizontal(.left)))
+			return piece(to: .horizontal(.left))
 		case #"|>"#:
-			return piece(.single(.horizontal(.right)))
+			return piece(to: .horizontal(.right))
 		case #"||"#:
-			return piece(.double(.horizontal(.left), .horizontal(.right)))
+			return piece(to: .horizontal(.left), double: true)
 		case #"\>"#:
-			return piece(.single(.diagonal(.up, .right)))
+			return piece(to: .diagonal(.up, .right))
 		case #"<\"#:
-			return piece(.single(.diagonal(.down, .left)))
+			return piece(to: .diagonal(.down, .left))
 		case #"\\"#:
-			return piece(.double(.diagonal(.up, .right), .diagonal(.down, .left)))
+			return piece(to: .diagonal(.up, .right), double: true)
 		case #"</"#:
-			return piece(.single(.diagonal(.up, .left)))
+			return piece(to: .diagonal(.up, .left))
 		case #"/>"#:
-			return piece(.single(.diagonal(.down, .right)))
+			return piece(to: .diagonal(.down, .right))
 		case #"//"#:
-			return piece(.double(.diagonal(.up, .left), .diagonal(.down, .right)))
+			return piece(to: .diagonal(.up, .left), double: true)
 		case #"::"#:
 			return .init(as: .empty, hasStar: hasStar)
 		case #"[]"#:
