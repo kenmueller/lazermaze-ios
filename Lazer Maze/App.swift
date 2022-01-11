@@ -2,12 +2,18 @@ import SwiftUI
 
 @main
 struct LazerMazeApp: App {
-	let persistence = Persistence.shared
+	init() {
+		UINavigationBar.appearance().largeTitleTextAttributes = [
+			.font: UIFont.default(size: 16, weight: .regular)
+		]
+	}
 	
 	var body: some Scene {
 		WindowGroup {
-			HomeView()
-				.environment(\.managedObjectContext, persistence.context)
+			NavigationView {
+				HomeView()
+					.environment(\.managedObjectContext, Persistence.shared.context)
+			}
 		}
 	}
 }

@@ -15,7 +15,7 @@
 		4D13913C278B803B000ABE21 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13913B278B803B000ABE21 /* Tests.swift */; };
 		4D139146278B803B000ABE21 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139145278B803B000ABE21 /* UITests.swift */; };
 		4D139148278B803B000ABE21 /* LaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139147278B803B000ABE21 /* LaunchTests.swift */; };
-		4D139156278B81B4000ABE21 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139155278B81B4000ABE21 /* HomeView.swift */; };
+		4D139156278B81B4000ABE21 /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139155278B81B4000ABE21 /* LevelView.swift */; };
 		4D139158278B855F000ABE21 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4D139157278B855F000ABE21 /* .gitignore */; };
 		4D13915E278B8CAC000ABE21 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13915D278B8CAC000ABE21 /* Level.swift */; };
 		4D139160278B8D1C000ABE21 /* LevelDescriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13915F278B8D1B000ABE21 /* LevelDescriptions.swift */; };
@@ -31,6 +31,16 @@
 		4D139184278BB214000ABE21 /* LevelExit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139183278BB214000ABE21 /* LevelExit.swift */; };
 		4D139186278BB682000ABE21 /* LevelDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139185278BB682000ABE21 /* LevelDescription.swift */; };
 		4D139188278BB694000ABE21 /* LevelDescriptionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139187278BB694000ABE21 /* LevelDescriptionError.swift */; };
+		4D13918A278CEE5A000ABE21 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139189278CEE5A000ABE21 /* HomeView.swift */; };
+		4D13918D278CF268000ABE21 /* DefaultFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13918C278CF268000ABE21 /* DefaultFont.swift */; };
+		4D139193278CF2A4000ABE21 /* Rajdhani-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D13918E278CF2A3000ABE21 /* Rajdhani-Light.ttf */; };
+		4D139194278CF2A4000ABE21 /* Rajdhani-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D13918F278CF2A3000ABE21 /* Rajdhani-Medium.ttf */; };
+		4D139195278CF2A4000ABE21 /* Rajdhani-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D139190278CF2A3000ABE21 /* Rajdhani-Bold.ttf */; };
+		4D139196278CF2A4000ABE21 /* Rajdhani-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D139191278CF2A4000ABE21 /* Rajdhani-Regular.ttf */; };
+		4D139197278CF2A4000ABE21 /* Rajdhani-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D139192278CF2A4000ABE21 /* Rajdhani-SemiBold.ttf */; };
+		4D13919A278CF595000ABE21 /* DefaultFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139199278CF595000ABE21 /* DefaultFontExtension.swift */; };
+		4D13919C278CF59D000ABE21 /* DefaultUIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13919B278CF59D000ABE21 /* DefaultUIFontExtension.swift */; };
+		4D13919F278D1C98000ABE21 /* Lazer-Maze-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D13919E278D1C98000ABE21 /* Lazer-Maze-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +72,7 @@
 		4D139141278B803B000ABE21 /* Lazer MazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lazer MazeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D139145278B803B000ABE21 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		4D139147278B803B000ABE21 /* LaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchTests.swift; sourceTree = "<group>"; };
-		4D139155278B81B4000ABE21 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4D139155278B81B4000ABE21 /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
 		4D139157278B855F000ABE21 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		4D139159278B8707000ABE21 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4D13915D278B8CAC000ABE21 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
@@ -79,6 +89,16 @@
 		4D139183278BB214000ABE21 /* LevelExit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelExit.swift; sourceTree = "<group>"; };
 		4D139185278BB682000ABE21 /* LevelDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelDescription.swift; sourceTree = "<group>"; };
 		4D139187278BB694000ABE21 /* LevelDescriptionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelDescriptionError.swift; sourceTree = "<group>"; };
+		4D139189278CEE5A000ABE21 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4D13918C278CF268000ABE21 /* DefaultFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultFont.swift; sourceTree = "<group>"; };
+		4D13918E278CF2A3000ABE21 /* Rajdhani-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Light.ttf"; sourceTree = "<group>"; };
+		4D13918F278CF2A3000ABE21 /* Rajdhani-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Medium.ttf"; sourceTree = "<group>"; };
+		4D139190278CF2A3000ABE21 /* Rajdhani-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Bold.ttf"; sourceTree = "<group>"; };
+		4D139191278CF2A4000ABE21 /* Rajdhani-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Regular.ttf"; sourceTree = "<group>"; };
+		4D139192278CF2A4000ABE21 /* Rajdhani-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-SemiBold.ttf"; sourceTree = "<group>"; };
+		4D139199278CF595000ABE21 /* DefaultFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultFontExtension.swift; sourceTree = "<group>"; };
+		4D13919B278CF59D000ABE21 /* DefaultUIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultUIFontExtension.swift; sourceTree = "<group>"; };
+		4D13919E278D1C98000ABE21 /* Lazer-Maze-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Lazer-Maze-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +158,7 @@
 				4D139130278B803B000ABE21 /* Model.xcdatamodeld */,
 				4D139129278B803B000ABE21 /* Assets.xcassets */,
 				4D13915A278B87E0000ABE21 /* Preview */,
+				4D13919E278D1C98000ABE21 /* Lazer-Maze-Info.plist */,
 			);
 			path = "Lazer Maze";
 			sourceTree = "<group>";
@@ -162,7 +183,8 @@
 		4D139154278B81A4000ABE21 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4D139155278B81B4000ABE21 /* HomeView.swift */,
+				4D139189278CEE5A000ABE21 /* HomeView.swift */,
+				4D139155278B81B4000ABE21 /* LevelView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,9 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				4D13915C278B8C7B000ABE21 /* Level */,
-				4D139164278B98E1000ABE21 /* Piece */,
-				4D139171278BA509000ABE21 /* Lazer */,
 				4D139176278BA652000ABE21 /* Direction */,
+				4D13918B278CF13E000ABE21 /* Font */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -191,8 +212,10 @@
 			children = (
 				4D13915D278B8CAC000ABE21 /* Level.swift */,
 				4D139182278BB206000ABE21 /* Border */,
+				4D139171278BA509000ABE21 /* Lazer */,
 				4D139181278BB1ED000ABE21 /* Exit */,
 				4D13916E278BA460000ABE21 /* Cell */,
+				4D139164278B98E1000ABE21 /* Piece */,
 				4D139161278B9897000ABE21 /* Description */,
 			);
 			path = Level;
@@ -258,6 +281,29 @@
 				4D13917F278BB0F0000ABE21 /* LevelBorder.swift */,
 			);
 			path = Border;
+			sourceTree = "<group>";
+		};
+		4D13918B278CF13E000ABE21 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				4D13918C278CF268000ABE21 /* DefaultFont.swift */,
+				4D139198278CF58C000ABE21 /* Extensions */,
+				4D13918E278CF2A3000ABE21 /* Rajdhani-Light.ttf */,
+				4D139191278CF2A4000ABE21 /* Rajdhani-Regular.ttf */,
+				4D13918F278CF2A3000ABE21 /* Rajdhani-Medium.ttf */,
+				4D139192278CF2A4000ABE21 /* Rajdhani-SemiBold.ttf */,
+				4D139190278CF2A3000ABE21 /* Rajdhani-Bold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		4D139198278CF58C000ABE21 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D13919B278CF59D000ABE21 /* DefaultUIFontExtension.swift */,
+				4D139199278CF595000ABE21 /* DefaultFontExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,8 +410,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D139196278CF2A4000ABE21 /* Rajdhani-Regular.ttf in Resources */,
+				4D139195278CF2A4000ABE21 /* Rajdhani-Bold.ttf in Resources */,
+				4D139193278CF2A4000ABE21 /* Rajdhani-Light.ttf in Resources */,
 				4D13912D278B803B000ABE21 /* Preview Assets.xcassets in Resources */,
+				4D13919F278D1C98000ABE21 /* Lazer-Maze-Info.plist in Resources */,
 				4D139158278B855F000ABE21 /* .gitignore in Resources */,
+				4D139194278CF2A4000ABE21 /* Rajdhani-Medium.ttf in Resources */,
+				4D139197278CF2A4000ABE21 /* Rajdhani-SemiBold.ttf in Resources */,
 				4D13912A278B803B000ABE21 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,16 +444,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D139175278BA520000ABE21 /* Lazer.swift in Sources */,
+				4D13918A278CEE5A000ABE21 /* HomeView.swift in Sources */,
+				4D13919C278CF59D000ABE21 /* DefaultUIFontExtension.swift in Sources */,
 				4D13912F278B803B000ABE21 /* Persistence.swift in Sources */,
 				4D139132278B803B000ABE21 /* Model.xcdatamodeld in Sources */,
 				4D139163278B98AD000ABE21 /* LevelFromDescription.swift in Sources */,
-				4D139156278B81B4000ABE21 /* HomeView.swift in Sources */,
+				4D139156278B81B4000ABE21 /* LevelView.swift in Sources */,
 				4D139184278BB214000ABE21 /* LevelExit.swift in Sources */,
 				4D139166278B98E8000ABE21 /* Piece.swift in Sources */,
 				4D139160278B8D1C000ABE21 /* LevelDescriptions.swift in Sources */,
 				4D13917C278BA903000ABE21 /* VerticalDirection.swift in Sources */,
 				4D139188278BB694000ABE21 /* LevelDescriptionError.swift in Sources */,
 				4D13917E278BABBA000ABE21 /* LevelCellCategory.swift in Sources */,
+				4D13918D278CF268000ABE21 /* DefaultFont.swift in Sources */,
 				4D13915E278B8CAC000ABE21 /* Level.swift in Sources */,
 				4D139126278B803A000ABE21 /* App.swift in Sources */,
 				4D139180278BB0F0000ABE21 /* LevelBorder.swift in Sources */,
@@ -409,6 +464,7 @@
 				4D13917A278BA8FC000ABE21 /* HorizontalDirection.swift in Sources */,
 				4D139178278BA675000ABE21 /* Direction.swift in Sources */,
 				4D139186278BB682000ABE21 /* LevelDescription.swift in Sources */,
+				4D13919A278CF595000ABE21 /* DefaultFontExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +628,7 @@
 				DEVELOPMENT_TEAM = JUP7FZ7QC3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lazer-Maze-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -601,6 +658,7 @@
 				DEVELOPMENT_TEAM = JUP7FZ7QC3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lazer-Maze-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -1,6 +1,6 @@
 extension Level.Cell {
 	enum Category {
-		case piece(Piece)
+		case piece(Level.Piece)
 		case block
 		case empty
 	}
