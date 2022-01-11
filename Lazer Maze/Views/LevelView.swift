@@ -75,6 +75,7 @@ struct LevelView_Previews: PreviewProvider {
 	static var previews: some View {
 		NavigationView {
 			LevelView()
+				.navigationBarHidden(true)
 				.environment(\.managedObjectContext, Persistence.preview.context)
 		}
 	}

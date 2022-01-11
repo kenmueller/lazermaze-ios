@@ -2,16 +2,11 @@ import SwiftUI
 
 @main
 struct LazerMazeApp: App {
-	init() {
-		UINavigationBar.appearance().largeTitleTextAttributes = [
-			.font: UIFont.default(size: 16, weight: .regular)
-		]
-	}
-	
 	var body: some Scene {
 		WindowGroup {
 			NavigationView {
 				HomeView()
+					.navigationBarHidden(true)
 					.environment(\.managedObjectContext, Persistence.shared.context)
 			}
 		}

@@ -40,7 +40,7 @@
 		4D139197278CF2A4000ABE21 /* Rajdhani-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D139192278CF2A4000ABE21 /* Rajdhani-SemiBold.ttf */; };
 		4D13919A278CF595000ABE21 /* DefaultFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D139199278CF595000ABE21 /* DefaultFontExtension.swift */; };
 		4D13919C278CF59D000ABE21 /* DefaultUIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13919B278CF59D000ABE21 /* DefaultUIFontExtension.swift */; };
-		4D13919F278D1C98000ABE21 /* Lazer-Maze-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D13919E278D1C98000ABE21 /* Lazer-Maze-Info.plist */; };
+		4D1391A2278D1F18000ABE21 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1391A1278D1F18000ABE21 /* ColorPalette.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,7 +98,7 @@
 		4D139192278CF2A4000ABE21 /* Rajdhani-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-SemiBold.ttf"; sourceTree = "<group>"; };
 		4D139199278CF595000ABE21 /* DefaultFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultFontExtension.swift; sourceTree = "<group>"; };
 		4D13919B278CF59D000ABE21 /* DefaultUIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultUIFontExtension.swift; sourceTree = "<group>"; };
-		4D13919E278D1C98000ABE21 /* Lazer-Maze-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Lazer-Maze-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4D1391A1278D1F18000ABE21 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +158,6 @@
 				4D139130278B803B000ABE21 /* Model.xcdatamodeld */,
 				4D139129278B803B000ABE21 /* Assets.xcassets */,
 				4D13915A278B87E0000ABE21 /* Preview */,
-				4D13919E278D1C98000ABE21 /* Lazer-Maze-Info.plist */,
 			);
 			path = "Lazer Maze";
 			sourceTree = "<group>";
@@ -203,6 +202,7 @@
 				4D13915C278B8C7B000ABE21 /* Level */,
 				4D139176278BA652000ABE21 /* Direction */,
 				4D13918B278CF13E000ABE21 /* Font */,
+				4D1391A0278D1F06000ABE21 /* Color */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -304,6 +304,14 @@
 				4D139199278CF595000ABE21 /* DefaultFontExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4D1391A0278D1F06000ABE21 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				4D1391A1278D1F18000ABE21 /* ColorPalette.swift */,
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,7 +422,6 @@
 				4D139195278CF2A4000ABE21 /* Rajdhani-Bold.ttf in Resources */,
 				4D139193278CF2A4000ABE21 /* Rajdhani-Light.ttf in Resources */,
 				4D13912D278B803B000ABE21 /* Preview Assets.xcassets in Resources */,
-				4D13919F278D1C98000ABE21 /* Lazer-Maze-Info.plist in Resources */,
 				4D139158278B855F000ABE21 /* .gitignore in Resources */,
 				4D139194278CF2A4000ABE21 /* Rajdhani-Medium.ttf in Resources */,
 				4D139197278CF2A4000ABE21 /* Rajdhani-SemiBold.ttf in Resources */,
@@ -456,6 +463,7 @@
 				4D13917C278BA903000ABE21 /* VerticalDirection.swift in Sources */,
 				4D139188278BB694000ABE21 /* LevelDescriptionError.swift in Sources */,
 				4D13917E278BABBA000ABE21 /* LevelCellCategory.swift in Sources */,
+				4D1391A2278D1F18000ABE21 /* ColorPalette.swift in Sources */,
 				4D13918D278CF268000ABE21 /* DefaultFont.swift in Sources */,
 				4D13915E278B8CAC000ABE21 /* Level.swift in Sources */,
 				4D139126278B803A000ABE21 /* App.swift in Sources */,

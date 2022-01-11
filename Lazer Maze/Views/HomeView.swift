@@ -5,10 +5,14 @@ struct HomeView: View {
 	var started = false
 	
 	var body: some View {
-		Text("HomeView")
-			.font(.default(size: 16, weight: .bold))
-			.navigationTitle("Lazer Maze")
-			.navigationBarTitleDisplayMode(.inline)
+		VStack {
+			Text("LAZER MAZE")
+				.font(.default(size: 30, weight: .regular))
+				.foregroundColor(.offWhite)
+		}
+		.edgesIgnoringSafeArea(.all)
+		.frame(maxWidth: .infinity, maxHeight: .infinity)
+		.background(Color.background)
 	}
 }
 
@@ -16,6 +20,7 @@ struct HomeView_Previews: PreviewProvider {
 	static var previews: some View {
 		NavigationView {
 			HomeView()
+				.navigationBarHidden(true)
 				.environment(\.managedObjectContext, Persistence.preview.context)
 		}
 	}
